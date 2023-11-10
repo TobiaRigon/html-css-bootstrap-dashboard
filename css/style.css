@@ -21,6 +21,10 @@ header{
     
 }
 
+.my_row{
+    
+}
+
 .logo_container{
     width :100%;
     min-width: 90px;
@@ -28,7 +32,7 @@ header{
 
 
 .logo_container img{
-    max-height: 90px;
+    max-height: 70px;
 }
 
 .logo_container img:nth-child(1){
