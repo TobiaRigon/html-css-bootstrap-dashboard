@@ -10,11 +10,31 @@ body{
 
 /* header */
 
+
+
+
+
 header{
     height:90px;
     width: 100vw;
     background-color: rgb(230, 230, 230);
 }
+
+
+
+/* debug */
+[class*="col"]{
+    border: 1px solid red;
+    min-height: 90px;
+}
+
+.menu , .setting_box{
+    min-height: 40px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+/* main */
 
 main{
     height: calc(100vh - 90px);
@@ -23,8 +43,9 @@ main{
 
 .my_sidebar{
     width: 90px;
-    /* background-color: rgb(21, 32, 57); */
-    background-image: linear-gradient(to bottom left, rgb(21, 32, 57), yellow);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 
     background: linear-gradient(
 
@@ -35,7 +56,7 @@ main{
 }
 
 .info_container{
-    height: 170px;
+    min-height: 170px;
     width:100%;
     background-color: rgb(0, 110, 255);
 
