@@ -15,10 +15,7 @@ body{
 
 
 header{
-    
-    width: 100vw;
     padding: 0 10px;
-    
 }
 
 
@@ -125,4 +122,6 @@ main{
     .main_content_container{
         width:calc( 100vw - 200px);
     }
+
+   
 }
