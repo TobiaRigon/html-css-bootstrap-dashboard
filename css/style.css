@@ -21,9 +21,6 @@ header{
     
 }
 
-.my_row{
-    
-}
 
 .logo_container{
     width :100%;
@@ -73,7 +70,7 @@ header{
 }
 
 /* debug */
-[class*="col"]{
+main [class*="col"]{
     border: 1px solid red;
     min-height: 30px;
 }
@@ -99,9 +96,9 @@ main{
 
     background: linear-gradient(
 
-        45deg,
-        rgb(27, 43, 76) 70%,
-        rgb(21, 32, 57) 70%
+        40deg,
+        rgb(27, 43, 76) 65%,
+        rgb(21, 32, 57) 65%
       );
 }
 
