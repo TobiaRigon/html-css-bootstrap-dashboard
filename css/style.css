@@ -276,12 +276,13 @@ form label{
 
 .faq .first_q:active{
     background-color: rgb(222, 248, 255);
-    border-color:rgb(91, 219, 255);
+    border: 1px solid rgb(91, 219, 255);
+    
 }
 
 .faq .first_q.focus{
     background-color: rgb(222, 248, 255);
-    border-color:rgb(91, 219, 255);
+    border: 1px solid rgb(91, 219, 255);
 }
 
 .first_q:active .fa-chevron-down{
