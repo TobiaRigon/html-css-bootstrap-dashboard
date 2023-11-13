@@ -185,6 +185,12 @@ form label{
     transition: transform .6s;
 }
 
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
 
 /* main_main */
 
@@ -288,6 +294,11 @@ form label{
 .faq .first_q:focus{
     background-color: rgb(222, 248, 255);
     border: 1px solid rgb(91, 219, 255);
+}
+
+.fa-plus:hover{
+    background-color: white;
+    color:  rgb(0, 110, 255);
 }
 
 
