@@ -172,7 +172,7 @@ ul .my_plus{
     background-color: rgb(255, 255, 255);
 }
 
-label{
+form label{
     margin:10px 0;
 }
 
@@ -209,6 +209,20 @@ label{
 }
 
 
+/* FAQ */
+
+/* .faq li:nth-child(even){
+    display: none;
+} */
+
+.faq li:nth-child(even) {
+    display: none;
+}
+
+.first_a{
+    font-weight: normal;
+}
+
 
 
 /* main_MQ */
@@ -242,5 +256,49 @@ label{
     }
     
 }
+
+
+
+/* hover & active */
+
+
+.setting_box:hover, nav li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.list-group-flush li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#input:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.faq .first_q:active{
+    background-color: rgb(222, 248, 255);
+    border-color:rgb(91, 219, 255);
+}
+
+.faq .first_q.focus{
+    background-color: rgb(222, 248, 255);
+    border-color:rgb(91, 219, 255);
+}
+
+.first_q:active .fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+.first_q.focus .fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+
+.first_q:active + .first_a{
+display: inline-block;
+}
+
+.first_q:focus + .first_a{
+    display: inline-block;
+    }
 
 
