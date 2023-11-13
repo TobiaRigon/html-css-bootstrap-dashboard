@@ -78,12 +78,8 @@ main{
    flex-direction: column;
    justify-content: space-between;
 
-    background: linear-gradient(
-
-        40deg,
-        rgb(27, 43, 76) 65%,
-        rgb(21, 32, 57) 65%
-      );
+   background-image: url(../img/sidebar-bg.png);
+    background-color:rgb(27, 43, 76) ;
 }
 
 .my_sidebar a{
@@ -164,6 +160,23 @@ ul .my_plus{
     --bs-offcanvas-width: 667px;
 }
 
+#basic-addon2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0px solid;
+    background-color: rgb(225, 225, 225);
+}
+
+.form-control {
+    border-left: 0px solid;
+    background-color: rgb(255, 255, 255);
+}
+
+label{
+    margin:10px 0;
+}
+
+
 /* main_main */
 
 .main_content_container{
@@ -172,8 +185,9 @@ ul .my_plus{
     font-weight: 600;
 }
 
-.text-bg-warning{
-    color: white;
+.text-bg-warning2{
+    color: #ffffff !important;
+  background-color: RGBA(var(--bs-warning-rgb),var(--bs-bg-opacity,1)) !important;
 }
 
 /*Prossime classi  */
@@ -193,6 +207,8 @@ ul .my_plus{
 .mycontainer{
     padding: 15px 0px;
 }
+
+
 
 
 /* main_MQ */
