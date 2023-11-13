@@ -181,6 +181,11 @@ form label{
 }
 
 
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+    transition: transform .6s;
+}
+
+
 /* main_main */
 
 .main_content_container{
@@ -283,6 +288,12 @@ form label{
 .faq .first_q:focus{
     background-color: rgb(222, 248, 255);
     border: 1px solid rgb(91, 219, 255);
+}
+
+
+
+.fa-chevron-down{
+    transition:  transform 0.5s ;
 }
 
 .first_q:active .fa-chevron-down{
