@@ -58,16 +58,9 @@ h3{
     }
 }
 
-/* debug */
-main [class*="col"]{
-    border: 1px solid red;
-    min-height: 30px;
-}
 
 .menu , .setting_box{
-    min-height: 40px;
     width: 100%;
-    border: 1px solid red;
 }
 
 /* main */
@@ -163,6 +156,14 @@ ul .my_plus{
     display: none;
 }
 
+
+
+/* offcanvas */
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+    --bs-offcanvas-width: 667px;
+}
+
 /* main_main */
 
 .main_content_container{
@@ -190,7 +191,7 @@ ul .my_plus{
 }
 
 .mycontainer{
-    padding: 15px 10px;
+    padding: 15px 0px;
 }
 
 
