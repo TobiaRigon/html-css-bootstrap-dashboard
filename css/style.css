@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 
-h3{
+h2, h3 , h2 button{
     font-weight: bold;
 }
 
@@ -191,6 +191,10 @@ form label{
 }
 
 
+#flexCheckDefault{
+    margin-top: 15px;
+}
+
 
 /* main_main */
 
@@ -227,14 +231,9 @@ form label{
 /* FAQ */
 
 
-.faq li:nth-child(even) {
-    display: none;
-}
-
-.first_a{
+.accordion-collapse {
     font-weight: normal;
 }
-
 
 
 /* main_MQ */
